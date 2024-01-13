@@ -1,0 +1,58 @@
+body,ul,h1,h2,h3,h4 {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #d19c00;
+  text-align: center;
+  padding: 1%;
+}
+header input[type="text"] {
+  background-color: rgb(73, 150, 244);
+  border: none;
+  padding: 2px 5px;
+}
+header input[type="submit"] {
+  background-color: aquamarine;
+}
+article {
+  text-align: center;
+  background-color: #e9b000;
+  padding: 2% 1%;
+  font-size: 30px;
+  font-weight: bold;
+}
+section {
+  background-color: #f9c309;
+  display: flex;
+  padding: 1%;
+  justify-content: space-between;
+}
+section div {
+  width: 30%;
+  background-color: white;
+}
+section div:hover {
+  box-shadow: 10px 10px 12px black;
+  opacity: 0.8;
+}
+section div img {
+  width: 100%;
+}
+section div h3{
+    padding-left: 3%;
+}
+section div p{
+    text-align: justify;
+    padding: 3%;
+}
+.card-content{
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+footer {
+    background-color: #D19C00;
+    padding: 1%;
+}
+
